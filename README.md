@@ -106,7 +106,8 @@ and one taught by [Eissa](https://www.udemy.com/aws-certified-solutions-architec
             and other web content to a user based on the geographic locations of the user,
             the origin of the webpage and a content delivery server.
         
-        There are many more edge locations than there are regions. Currently 52 edge locations around the world
+        There are many more edge locations than there are regions. Currently Amazon CloudFront uses a global 
+        network of 197 Points of Presence (186 Edge Locations and 11 Regional Edge Caches) in 74 cities across 34 countries.
         
    2.   **Networking**:
 
