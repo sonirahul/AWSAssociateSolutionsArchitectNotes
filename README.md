@@ -93,21 +93,21 @@ and one taught by [Eissa](https://www.udemy.com/aws-certified-solutions-architec
 
    1.   **AWS Global Infrastructure**:
         1. Availability zone: Each AWS region consists of multiple AZs
-            Each region consists of multiple availability zones, currently 69 in total(as of 2019)
+            Each region consists of multiple availability zones, currently 84 in total(as of 2022)
             An Availability Zone(AZ) is simply a data center
             Each AZ can contain multiple data centers
                         
-        2. Regions: A place where AWS resources exists a geographical area, there are 22 regions (as of 2019)
+        2. Regions: A place where AWS resources exists a geographical area, there are 26 regions (as of 2022)
         
         3. Edge location: This is a CDN(Content-Delivery Network) endpoint. Edge locations are used by CloudFront 
             to cache files near the user where they access them.
         
         4. CDN: A content delivery network (CDN) is a system of distributed servers that deliver webpages,
             and other web content to a user based on the geographic locations of the user,
-            the origin of the webpage and a content delivery server.
+            the origin of the webpage and a content delivery server. There are many more edge locations than there are regions. Currently Amazon CloudFront uses a global 
+        network of +310 Points of Presence (300+ Edge Locations and 13 Regional Edge Caches) in 74 cities across 34 countries.
         
-        There are many more edge locations than there are regions. Currently Amazon CloudFront uses a global 
-        network of 197 Points of Presence (186 Edge Locations and 11 Regional Edge Caches) in 74 cities across 34 countries.
+        5. refer to this link for updated info [link](https://aws.amazon.com/about-aws/global-infrastructure/)
         
    2.   **Networking**:
 
